@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asdddddd"
+    tools:context=".BodyPainting">
+
+
+    <TextView
+        android:id="@+id/aracSecTextView"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:text="Створіть запит на свій автомобіль:"
+        android:textColor="@color/yesil"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerRepair"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pFiyatText"
+        tools:ignore="MissingConstraints"
+        tools:targetApi="jelly_bean" />
+
+    <Spinner
+        android:id="@+id/spinnerRepair"
+        android:layout_width="381dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#000000"
+        android:entries="@array/body_painting"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRepairAl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aracSecTextView"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonRepairAl"
+        android:layout_width="164dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="74dp"
+        android:background="@drawable/buttonb"
+        android:text="Створити запит"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerRepair"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/pFiyatText"
+        android:layout_width="370dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Середня вартість послуг з фарбування та кузовного ремонту: 5000-15000"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/aracSecTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/KayitOlText"
+        tools:ignore="MissingConstraints"
+        tools:targetApi="jelly_bean" />
+
+    <TextView
+        android:id="@+id/KayitOlText"
+        android:layout_width="376dp"
+        android:layout_height="164dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="67dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="@string/BodyPainting"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/pFiyatText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints"
+        tools:targetApi="jelly_bean" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="375dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="37dp"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:text="Оживіть зовнішній вигляд вашого автомобіля!"
+        android:textColor="@color/yesil"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/KayitOlText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:targetApi="jelly_bean" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="378dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/boyamavekaporta"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

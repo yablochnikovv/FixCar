@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sg1png"
+    tools:context=".Admin">
+
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/homeb"
+        android:layout_width="74dp"
+        android:layout_height="67dp"
+        android:background="@drawable/baseline_home_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.941" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/listeleButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="359dp"
+        android:layout_height="94dp"
+        android:background="@drawable/buttonbb"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:text="Список"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.692"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552"
+        tools:ignore="InvalidId" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/CarButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="364dp"
+        android:layout_height="103dp"
+        android:background="@drawable/buttonbb"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:text="Видалити"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.765"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759"
+        tools:ignore="InvalidId" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="349dp"
+        android:layout_height="194dp"
+        android:gravity="center"
+        android:text="Ласкаво просимо, ви в панелі адміністратора"
+        android:textColor="#090909"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.182" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

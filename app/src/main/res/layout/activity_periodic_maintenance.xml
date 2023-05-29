@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asdddddd"
+    tools:context=".PeriodicMaintenance">
+
+
+    <TextView
+        android:id="@+id/aracSecTextView"
+        android:layout_width="384dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:text="Створіть запит на свій автомобіль:"
+        android:textColor="@color/yesil"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/pFiyatText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:targetApi="jelly_bean" />
+
+    <TextView
+        android:id="@+id/KayitOlText"
+        android:layout_width="376dp"
+        android:layout_height="224dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="@string/PeriodicMaintenance"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/aracSecTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:targetApi="jelly_bean" />
+
+    <TextView
+        android:id="@+id/pFiyatText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Середня періодична плата за технічне обслуговування: 2000-5000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerService"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:targetApi="jelly_bean" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="316dp"
+        android:layout_height="162dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/periyodik" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="362dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:text="Навіщо вам періодичне технічне обслуговування?"
+        android:textColor="@color/yesil"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/KayitOlText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:targetApi="jelly_bean" />
+
+    <Spinner
+        android:id="@+id/spinnerService"
+        android:layout_width="366dp"
+        android:layout_height="57dp"
+        android:entries="@array/periodic_maintenance"
+        app:layout_constraintBottom_toTopOf="@+id/buttonServiceAl"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonServiceAl"
+        android:layout_width="165dp"
+        android:layout_height="52dp"
+        android:background="@drawable/buttonb"
+        android:text="Створити запит"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

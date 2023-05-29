@@ -1,0 +1,140 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">FIXCAR</string>
+    <string name="data">Текст результату</string>
+    <string name="fetch_data">Отримати дані</string>
+    <string name="put_data">Введіть дані</string>
+    <string name="username">Логін</string>
+    <string name="password">Пароль</string>
+    <string name="login">Увійти</string>
+    <string name="signuphere">Не маєте облікового запису? Зареєструйся.</string>
+    <string name="signup">Реєстрація</string>
+    <string name="loginhere">Вже маєте обліковий запис? Увійдіть в систему</string>
+    <string name="userAd">Імя</string>
+    <string name="userSurname">Прізвище</string>
+    <string name="Email">Email</string>
+    <string name="signup1">Не маєте облікового запису? Зареєструйся.</string>
+    <string name="title_activity_car_information">CarInformation</string>
+    <!-- Навігація -->
+    <string name="first_fragment_label">Перший фрагмент</string>
+    <string name="second_fragment_label">Другий фрагмент</string>
+    <string name="next">Наступна</string>
+    <string name="previous">Попередня</string>
+
+    <string name="BodyPainting">
+Кузовні роботи відновлюють зовнішній вигляд вашого автомобіля та усувають пошкодження. Ця послуга підвищує естетичність і вартість вашого автомобіля, а також забезпечує його безпеку. Автосервіси виконують ці операції належним чином за допомогою професійного обладнання та досвідченого персоналу. Ви можете замовити малярні та кузовні роботи, щоб ваш автомобіль знову засяяв.</string>
+    <string name="PeriodicMaintenance">Регулярне періодичне технічне обслуговування вашого автомобіля забезпечує його працездатність і безпеку. Заміна оливи, перевірка гальм, заміна фільтрів, балансування рульової тяги, перевірка акумулятора та контроль роботи кондиціонера - ось лише деякі з цих послуг. Технічне обслуговування подовжує термін служби вашого автомобіля і робить водіння приємним.</string>
+    <string name="talepButon">Створити запит</string>
+
+    <string-array name="yakit_turleri">
+        <item>Бензин</item>
+        <item>Дизель</item>
+        <item>Електрика</item>
+        <item>Гібрид</item>
+    </string-array>
+    <string-array name="markalar">
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>Citroën</item>
+        <item>Dacia</item>
+        <item>Fiat</item>
+        <item>Ford</item>
+        <item>Honda</item>
+        <item>Hyundai</item>
+        <item>Kia</item>
+        <item>Mercedes-Benz</item>
+        <item>Nissan</item>
+        <item>Opel</item>
+        <item>Peugeot</item>
+        <item>Renault</item>
+        <item>Toyota</item>
+        <item>Volkswagen</item>
+        <item>Volvo</item>
+    </string-array>
+
+
+    <string-array name="yillar">
+        <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>2008</item>
+        <item>2009</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+
+
+    </string-array>
+
+    <string-array name="periodic_maintenance">
+        <item>Технічне обслуговування</item>
+    </string-array>
+    <string-array name="repair_services">
+        <item>Ремонтні послуги</item>
+    </string-array>
+
+    <string-array name="body_painting">
+        <item android:textColor="#ffffff">Кузовні роботи</item>
+    </string-array>
+    <string-array name="modeller">
+        <item>Бензин</item>
+        <item>Дизель</item>
+        <item>Електрика</item>
+        <item>Гібрид</item>
+    </string-array>
+
+    <string name="adres1">Північний бульвар. СТО No:2. Івано-Франківськ</string>
+    <string name="adres2">Вулиця 28 Червня. СТО No:34. Чернівці</string>
+    <string name="adres3">Вулиця Михайла Грушевського. СТО No:41. Львів</string>
+
+    <string name="title_activity_appointment">Призначення</string>
+    <string name="RepairService">Автосервіси виконують ремонтні роботи, яких потребують транспортні засоби. Ці послуги включають ремонт двигуна, трансмісії, гальмівної системи, підвіски та електронних систем. Професійні автосервіси ремонтують ваші транспортні засоби найкращим чином завдяки своїй досвідченій та кваліфікованій команді, куди ви можете безпечно доставити свій автомобіль. Таким чином, це продовжує термін служби вашого автомобіля і забезпечує вашу безпеку.</string>
+
+    <string name="app_name1">Введіть адресу електронної пошти для встановлення нового пароля.</string>
+    <string name="mail1">Адреса електронної пошти.</string>
+
+    <!-- Товари -->
+    <string-array name="filtres">
+    <item>Denckermann</item>
+    <item>Purflux</item>
+    <item>UFI</item>
+    <item>Donaldson</item>
+    <item>Blue Print</item>
+    <item>Rider</item>
+
+    </string-array>
+
+    <string-array name="akumulator">
+        <item>Deca STAR MACH 60</item>
+        <item>AutoWelle AW05-1204</item>
+        <item>Vitals Master DS 4.0</item>
+        <item>HY 410</item>
+        <item>CTEK XS 0.8</item>
+        <item>Deca FL 3713D</item>
+
+    </string-array>
+
+    <string-array name="maslo">
+        <item>Neste Pro 5W-30</item>
+        <item>VERYLUBE 10W-40 E4</item>
+        <item>XADO Atomic Oil 5W-40</item>
+        <item>LIQUI MOLY Special Tec AA 5W-30</item>
+        <item>Castrol Edge 5W-30</item>
+        <item>Motul Specific dexos2</item>
+        <item>MOBIL Super 3000 X1</item>
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asdddddd"
+    tools:context=".Services">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonPeriodicMaintenance"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="39dp"
+        android:background="#28D854"
+        android:text="технічне обслуговування"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonRepairServices"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonRepairServices"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="39dp"
+        android:background="#28D854"
+        android:text="Ремонтні послуги"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonBodyPainting"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPeriodicMaintenance" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonBodyPainting"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="210dp"
+        android:background="#28D854"
+        android:text="Кузовні роботи"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRepairServices" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

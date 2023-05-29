@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asdddddd"
+    tools:context=".Appointment">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="394dp"
+        android:layout_height="672dp"
+        android:fillViewport="true"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".Appointment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="325dp"
+                android:layout_height="69dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/poppinsbold"
+                android:text="    Ваш автомобіль"
+                android:textColor="#000000"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Марка" />
+
+            <Spinner
+                android:id="@+id/marka"
+                android:layout_width="350dp"
+                android:layout_height="48dp"
+                android:entries="@array/markalar"
+                android:hint="Введіть марку"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Модель" />
+
+            <Spinner
+                android:id="@+id/model"
+                android:layout_width="350dp"
+                android:layout_height="48dp"
+                android:entries="@array/modeller"
+                android:hint="Введіть серію"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="37dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Рік" />
+
+            <Spinner
+                android:id="@+id/year"
+                android:layout_width="350dp"
+                android:layout_height="48dp"
+                android:entries="@array/yillar"
+                android:hint="Введіть рік"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Номерний знак" />
+
+            <EditText
+                android:id="@+id/plaka"
+                android:layout_width="350dp"
+                android:layout_height="48dp"
+                android:hint="Введіть номерний знак"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Кілометр" />
+
+            <EditText
+                android:id="@+id/kilometre"
+                android:layout_width="350dp"
+                android:layout_height="48dp"
+                android:hint="Введіть кількість кілометрів"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/yakit_turu_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Тип палива"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <Spinner
+                android:id="@+id/yakit"
+                android:layout_width="143dp"
+                android:layout_height="41dp"
+                android:entries="@array/yakit_turleri"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/yakit_turu_label" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/AppointmentCreate"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="112dp"
+        android:layout_height="48dp"
+        android:background="@drawable/buttonb"
+        android:text="Наступна"
+        android:textColor="@color/design_default_color_background"
+        android:textColorHighlight="@color/design_default_color_error"
+        android:textColorHint="#FE2517"
+        android:textColorLink="#FE2517"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sg1png"
+    tools:context=".RemoveCar">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="333dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginBottom="68dp"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:text="Видалення транспортного засобу"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/RemovePlakaSpinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/RemovePlakaSpinner"
+        android:layout_width="302dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="83dp"
+        app:layout_constraintBottom_toTopOf="@+id/removeCarButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/removeCarButton"
+        android:layout_width="177dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="261dp"
+        android:background="#28D854"
+        android:text="Видалити"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RemovePlakaSpinner" />
+</androidx.constraintlayout.widget.ConstraintLayout>
